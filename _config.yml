@@ -1,0 +1,18 @@
+---
+title: Botanic &amp; Clay
+timezone: Australia/Sydney
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
+gems:
+- jekyll-seo-tag
+permalink: pretty

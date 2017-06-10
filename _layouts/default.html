@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+  <body class="{{ page.title | downcase }}">
+    <div class="canvas">
+      <div class="container">
+        <div class="row content">
+          <div class="col-xs-12">
+            <a href="/" title="Botanic &amp; Clay"><img src="{{ site.url }}/assets/img/logo-dark.png" alt="Botanic &amp; Clay Logo" class="logo"></a>
+            {{ content }}
+          </div>
+        </div>
+      </div>
+      <footer>
+        {% include footer.html %}
+      </footer>
+    </div>
+    <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
