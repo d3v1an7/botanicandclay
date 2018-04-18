@@ -1,6 +1,5 @@
 ---
 title: Botanic & Clay
-description: This isn't any old plant, it's your plant.
 timezone: Australia/Sydney
 collections:
   posts:
@@ -9,19 +8,20 @@ collections:
   uploads:
     title: Uploads
     output: true
-facebook:
-  publisher: https://www.facebook.com/botanicandclay
-  admins: 536540509
 defaults:
 - scope:
     path: ''
   values:
     layout: default
-    image: /assets/img/card.jpg
+    image: "/assets/img/card.jpg"
+description: This isn't any old plant, it's your plant.
+facebook:
+  publisher: https://www.facebook.com/botanicandclay
+  admins: 536540509
 social:
   links:
-    - https://www.facebook.com/botanicandclay
-    - https://www.instagram.com/botanicandclay
+  - https://www.facebook.com/botanicandclay
+  - https://www.instagram.com/botanicandclay
 gems:
 - jekyll-seo-tag
 permalink: pretty
