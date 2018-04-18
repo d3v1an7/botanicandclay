@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Botanic & Clay
 date: 2016-08-14 00:56:00 +10:00
 position: 0
 description: This isn't any old plant, it's your plant.
