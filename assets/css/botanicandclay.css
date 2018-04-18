@@ -33,7 +33,7 @@ footer {
   overflow: auto;
 }
 
-.home .canvas {
+.botanic-clay .canvas {
   background-image: url('/assets/img/background.jpg');
 }
 
@@ -43,7 +43,7 @@ footer {
   image-rendering: auto;
 }
 
-.home p {
+.botanic-clay p {
   font-size: 18px;
   width: 70%;
   margin-left: auto;
@@ -80,7 +80,7 @@ footer {
 }
 
 @media screen and (min-width: 414px) {
-  .home p {
+  .botanic-clay p {
     font-size: 22px;
   }
 }
@@ -93,7 +93,7 @@ footer {
   .icons {
     margin-bottom: 100px;
   }
-  .home p {
+  .botanic-clay p {
     font-size: 24px;
   }
 }
@@ -106,7 +106,7 @@ footer {
   .icons {
     margin-bottom: 70px;
   }
-  .home p {
+  .botanic-clay p {
     font-size: 24px;
   }
 }
@@ -126,6 +126,6 @@ body {
   font-family: 'Yrsa', serif;
 }
 
-.home .content {
+.botanic-clay .content {
   text-align: center;
 }
